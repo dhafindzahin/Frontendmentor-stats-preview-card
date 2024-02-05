@@ -78,3 +78,25 @@ h6 {
 	--transparent-white-strong: hsla(0, 0%, 100%, 0.75);
 	--transparent-white-soft: hsla(0, 0%, 100%, 0.6);
 }
+
+.wrapper {
+	padding: 64px 20px;
+	background-color: var(--dark-blue);
+	color: white;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+	background-color: var(--desaturated-blue);
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	.main-container {
+		flex-direction: row-reverse;
+	}
+}
