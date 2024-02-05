@@ -95,6 +95,16 @@ h6 {
 	flex-direction: column;
 }
 
+.image-container {
+	position: relative;
+}
+
+.image-overlay {
+	position: absolute;
+	inset: 0;
+	background-color: hsla(277, 80%, 20%, 70%);
+}
+
 @media (min-width: 768px) {
 	.main-container {
 		flex-direction: row-reverse;
