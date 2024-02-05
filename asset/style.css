@@ -61,6 +61,13 @@ h6 {
 	isolation: isolate;
 }
 
+@font-face {
+	font-family: ;
+	src: url();
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700;900&display=swap");
+
 :root {
 	--dark-blue: hsl(233, 47%, 7%);
 	--desaturated-blue: hsl(244, 38%, 16%);
