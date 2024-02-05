@@ -93,10 +93,15 @@ h6 {
 	background-color: var(--desaturated-blue);
 	display: flex;
 	flex-direction: column;
+	border-radius: 10px;
 }
 
 .image-container {
 	position: relative;
+}
+
+.image-container  * {
+	border-radius: 10px 10px 0 0;
 }
 
 .image-overlay {
@@ -108,5 +113,9 @@ h6 {
 @media (min-width: 768px) {
 	.main-container {
 		flex-direction: row-reverse;
+	}
+
+	.image-container * {
+		border-radius: 0 10px 10px 0;
 	}
 }
