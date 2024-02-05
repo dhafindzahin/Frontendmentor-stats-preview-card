@@ -60,3 +60,11 @@ h6 {
 #__next {
 	isolation: isolate;
 }
+
+:root {
+	--dark-blue: hsl(233, 47%, 7%);
+	--desaturated-blue: hsl(244, 38%, 16%);
+	--violet: hsl(277, 64%, 61%);
+	--transparent-white-strong: hsla(0, 0%, 100%, 0.75);
+	--transparent-white-soft: hsla(0, 0%, 100%, 0.6);
+}
