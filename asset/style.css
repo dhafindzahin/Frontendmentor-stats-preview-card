@@ -179,13 +179,11 @@ h6 {
 	}
 
 	.header {
-		width: auto;
-		max-width: 19ch;
+		min-width: 19ch;
 		font-size: 1.5rem;
 	}
 
 	.description {
-		width: auto;
 		width: 40ch;
 		margin-bottom: 4em;
 	}
