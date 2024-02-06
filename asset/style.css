@@ -100,7 +100,7 @@ h6 {
 	max-width: 325px;
 }
 
-.main-container ul {
+.info-container {
 	list-style: none;
 	padding: 0;
 }
@@ -160,7 +160,7 @@ h6 {
 		text-align: start;
 	}
 
-	.main-container ul {
+	.info-container {
 		max-width: 100%;
 		display: flex;
 		justify-content: space-between;
