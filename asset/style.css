@@ -169,7 +169,7 @@ h6 {
 	.image-container * {
 		border-radius: 0 10px 10px 0;
 		width: calc(50vw);
-		max-width: 525px;
+		max-width: 450px;
 	}
 
 	.content-container {
@@ -186,11 +186,16 @@ h6 {
 	.description {
 		width: 40ch;
 		margin-bottom: 4em;
+		font-size: 0.75rem;
 	}
 }
 
 @media (min-width: 1024px) {
 	.header {
 		font-size: 2.1rem;
+	}
+
+	.description {
+		font-size: 1rem;
 	}
 }
