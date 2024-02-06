@@ -172,6 +172,7 @@ h6 {
 		align-items: center;
 		padding: 0;
 		text-align: start;
+		gap: 100px;
 	}
 
 	.info-container {
@@ -193,12 +194,12 @@ h6 {
 	}
 
 	.header {
-		width: 19ch;
+		width: 16ch;
 		font-size: 1.5rem;
 	}
 
 	.description {
-		width: 35ch;
+		width: 39ch;
 		margin-bottom: 4em;
 		font-size: 0.75rem;
 	}
