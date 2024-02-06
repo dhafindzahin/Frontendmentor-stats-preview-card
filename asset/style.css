@@ -193,12 +193,12 @@ h6 {
 	}
 
 	.header {
-		min-width: 19ch;
+		width: 19ch;
 		font-size: 1.5rem;
 	}
 
 	.description {
-		width: 40ch;
+		width: 35ch;
 		margin-bottom: 4em;
 		font-size: 0.75rem;
 	}
